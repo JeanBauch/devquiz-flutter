@@ -3,7 +3,8 @@ import 'package:DevQuiz/core/app_text_styles.dart';
 import 'package:flutter/material.dart';
 
 class ChartWidget extends StatelessWidget {
-  const ChartWidget({ Key? key }) : super(key: key);
+  const ChartWidget({ Key? key, required this.userScore, }) : super(key: key);
+  final int userScore;
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +19,7 @@ class ChartWidget extends StatelessWidget {
               width: 80,
               child: CircularProgressIndicator(
                 strokeWidth: 10,
-                value: .75,
+                value: userScore/100,
                 backgroundColor: AppColors.chartSecondary,
                 valueColor: AlwaysStoppedAnimation<Color>(AppColors.chartPrimary),
               ),
@@ -27,7 +28,7 @@ class ChartWidget extends StatelessWidget {
 
           Center(
             child: Text(
-              "75%", 
+              "${userScore.toString()}%", 
               style: AppTextStyles.heading,
             )
           ),
