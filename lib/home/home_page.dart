@@ -1,3 +1,4 @@
+import 'package:DevQuiz/challenge/challenge_page.dart';
 import 'package:DevQuiz/core/app_colors.dart';
 import 'package:DevQuiz/home/home_controller.dart';
 import 'package:DevQuiz/home/home_state.dart';
@@ -54,7 +55,14 @@ class _HomePageState extends State<HomePage> {
                 crossAxisSpacing: 16,
                 mainAxisSpacing: 16,
                 crossAxisCount: 2,
-                children: controller.quizzes!.map((e) => QuizCardWidget(title: "Trilha de flutter", percent: e.questionAnswered/e.questions.length ,completed: "${e.questionAnswered} de ${e.questions.length}",)).toList(),
+                children: controller.quizzes!
+                    .map((e) => QuizCardWidget(
+                        title: "Trilha de flutter",
+                        percent: e.questionAnswered/e.questions.length,
+                        completed: "${e.questionAnswered} de ${e.questions.length}",
+                        onTap: () { Navigator.push(context, MaterialPageRoute(builder: (context) => ChallengePage(questions: e.questions,))); },
+                      ))
+                    .toList(),
               ),
             )
           ],
