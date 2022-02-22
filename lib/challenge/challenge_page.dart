@@ -2,12 +2,14 @@ import 'package:DevQuiz/challenge/challenge_controller.dart';
 import 'package:DevQuiz/challenge/widget/next_button/next_button_widget.dart';
 import 'package:DevQuiz/challenge/widget/question_indicator/question_indicator_widget.dart';
 import 'package:DevQuiz/challenge/widget/quiz/quiz_widget.dart';
+import 'package:DevQuiz/result/result_page.dart';
 import 'package:DevQuiz/shared/models/question_models.dart';
 import 'package:flutter/material.dart';
 
 class ChallengePage extends StatefulWidget {
   final List<QuestionModel> questions;
-  const ChallengePage({ Key? key, required this.questions }) : super(key: key);
+  final String title;
+  const ChallengePage({ Key? key, required this.questions, required this.title }) : super(key: key);
 
   @override
   _ChallengePageState createState() => _ChallengePageState();
@@ -31,6 +33,13 @@ class _ChallengePageState extends State<ChallengePage> {
         duration: Duration(seconds: 1),
         curve: Curves.ease
       ); 
+  }
+
+  void onSelected(bool value) {
+    if(value) {
+      controller.countAnwserRight++;
+    }
+    nextPage();
   }
 
   @override
@@ -62,7 +71,7 @@ class _ChallengePageState extends State<ChallengePage> {
       ),
       body: PageView(
         controller: pageController,
-        children: widget.questions.map((e) => QuizWidget(question: e, onChange: nextPage,), ).toList(),
+        children: widget.questions.map((e) => QuizWidget(question: e, onSelectd: onSelected,), ).toList(),
       ),
       bottomNavigationBar: SafeArea(
         bottom: true,
@@ -81,7 +90,17 @@ class _ChallengePageState extends State<ChallengePage> {
                     )
                   ),
                 if(value == widget.questions.length)
-                  Expanded(child: NextButtonWidget.darkGreen(label: "Confirmar", onTap: () {},)),
+                  Expanded(
+                    child: NextButtonWidget.darkGreen(
+                      label: "Confirmar",
+                      onTap: () { 
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(builder: (context) => ResultPage(title: widget.title, length: widget.questions.length, result: controller.countAnwserRight,))
+                        );
+                      },
+                    )
+                  ),
               ],
             )
           )

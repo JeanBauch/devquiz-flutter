@@ -8,4 +8,6 @@ class ChallengeController {
   int get currentPage => currentPageNotifer.value;
   set currentPage(int value) => currentPageNotifer.value = value;
 
+  int countAnwserRight = 0;
+
 }

@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
                         title: "Trilha de flutter",
                         percent: e.questionAnswered/e.questions.length,
                         completed: "${e.questionAnswered} de ${e.questions.length}",
-                        onTap: () { Navigator.push(context, MaterialPageRoute(builder: (context) => ChallengePage(questions: e.questions,))); },
+                        onTap: () { Navigator.push(context, MaterialPageRoute(builder: (context) => ChallengePage(questions: e.questions, title: e.title,))); },
                       ))
                     .toList(),
               ),
