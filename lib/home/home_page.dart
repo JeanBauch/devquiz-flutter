@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
                 crossAxisCount: 2,
                 children: controller.quizzes!
                     .map((e) => QuizCardWidget(
-                        title: "Trilha de flutter",
+                        title: e.title,
                         percent: e.questionAnswered/e.questions.length,
                         completed: "${e.questionAnswered} de ${e.questions.length}",
                         onTap: () { Navigator.push(context, MaterialPageRoute(builder: (context) => ChallengePage(questions: e.questions, title: e.title,))); },

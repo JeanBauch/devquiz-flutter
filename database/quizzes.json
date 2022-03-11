@@ -29,7 +29,7 @@
           { "title": "main() é função provenientes do JavaScript, portanto não é reconhecida pelo Flutter. Enquanto a runApp() é responsável por gerar a árvore de widgets. " },
           { "title": "As duas funções exercem a mesma função e não possui diferenças entre elas. " },
           { "title": "runApp() é a função principal que tem sua chamativa a função main(), responsável por gerar o widget raiz." },
-          { "title": "main() é a função provenientes de linguagens semelhantes a Java , então é onde todos os programas começam, sem ela, você não pode escrever nenhum programa no Flutter, mesmo sem interface do usuário. Enquanto runApp() é a função que deve retornar o Widget que seria anexado à tela como raiz da Árvore de Widgets que será renderizada.", "isRight": true}
+          { "title": "main() é a função provenientes de linguagens semelhantes a Java, sem ela, você não pode escrever nenhum programa no Flutter. Enquanto runApp() é a função que deve retornar o Widget que seria anexado à tela como raiz da Árvore de Widgets que será renderizada.", "isRight": true}
         ]
       },
       {
