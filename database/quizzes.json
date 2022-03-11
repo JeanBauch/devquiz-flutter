@@ -1,28 +1,110 @@
 [
   {
-    "title": "Trilha de flutter",
+    "title": "Introdução ao Flutter",
     "imagem": "blocks",
     "level": "facil",
-    "questionAnswered": 1,
+    "questionAnswered": 0,
     "questions": [
       {
-        "title": "Isso é Flutter?",
+        "title": "O que é Flutter?",
         "awnsers": [
-          { "title": "Claro que é", "isRight": true },
-          { "title": "Não, isso é o react native" },
-          { "title": "Não isso é WEB" },
-          { "title": "Não, isso é ionic"}
+          { "title": "O Flutter é um kit de ferramentas de interface do usuário de código aberto do Google para criar aplicativos bonitos e compilados nativamente para desktop, web e dispositivos móveis a partir de uma única base de código.", "isRight": true },
+          { "title": "Flutter é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa." },
+          { "title": "É um Framework para criação de aplicações móveis e desktop de alto desempenho e qualidade, que utiliza as tecnologias web HTML, CSS e JavaScript." },
+          { "title": "Flutter é uma linguagem de programação utilizada apenas em WEB, não permitindo criação de aplicações mobile"}
         ]
       },
       {
-        "title": "Isso é Flutter 2?",
+        "title": "Quantos tipos de widgets existem no Flutter?",
         "awnsers": [
-          { "title": "Não, isso é ionic" },
-          { "title": "Não, isso é o react native" },
-          { "title": "Não isso é WEB" },
-          { "title": "Claro que é", "isRight": true}
+          { "title": "Existem dois tipos de widgets: 1. StatefulWidget : Um widget que não requer estado mutável. 2. StatelessWidgetStatefulWidget : Um widget que possui estado mutável." },
+          { "title": "Existem apenas 1 tipo de widgets, baseada em estruturação em componentes." },
+          { "title": "Não existem Widgets em Flutter, apenas na linguagem do React Native podemos encontrar este recurso." },
+          { "title": "Existem dois tipos de widgets: 1. StatelessWidget  : Um widget que não requer estado mutável. 2. StatefulWidget : Um widget que possui estado mutável.", "isRight": true}
+        ]
+      },
+      {
+        "title": "Qual é a diferença entre main()e runApp()funções no Flutter ?",
+        "awnsers": [
+          { "title": "main() é função provenientes do JavaScript, portanto não é reconhecida pelo Flutter. Enquanto a runApp() é responsável por gerar a árvore de widgets. " },
+          { "title": "As duas funções exercem a mesma função e não possui diferenças entre elas. " },
+          { "title": "runApp() é a função principal que tem sua chamativa a função main(), responsável por gerar o widget raiz." },
+          { "title": "main() é a função provenientes de linguagens semelhantes a Java , então é onde todos os programas começam, sem ela, você não pode escrever nenhum programa no Flutter, mesmo sem interface do usuário. Enquanto runApp() é a função que deve retornar o Widget que seria anexado à tela como raiz da Árvore de Widgets que será renderizada.", "isRight": true}
+        ]
+      },
+      {
+        "title": "O que é um widget ?",
+        "awnsers": [
+          { "title": "Widgets são os componentes da interface do usuário no Flutter, porém não são capazes de controlar e configurar estados atuais, se resume apenas a 'Layout'. " },
+          { "title": "Widgets são os componentes da interface do usuário no Flutter, descrevendo o comportamento de um elemento, como sua visualização em tela e estados atuais. Podendo ser desde um simples 'Texto' a 'Botões' a 'Layouts de tela' ","isRight": true },
+          { "title": "Widgets são plugins externos feito pela própria comunidade afim de otimizar o desempenho dos componentes dentro do Flutter. " },
+          { "title": "Widgets são os Layouts em tela, mas que se diferenciam de 'Componentes' para controle de estados dentro do mesmo. " }
+        ]
+      },
+      {
+        "title": "Qual linguagem de programação é usada pelo Flutter ?",
+        "awnsers": [
+          { "title": "Python." },
+          { "title": "JavaScript." },
+          { "title": "Dart.","isRight": true },
+          { "title": "HTML/CSS e React." }
+        ]
+      }
+    ]
+  },
+
+  {
+    "title": "Introdução ao Flutter",
+    "imagem": "blocks",
+    "level": "facil",
+    "questionAnswered": 0,
+    "questions": [
+      {
+        "title": "O que é Flutter?",
+        "awnsers": [
+          { "title": "O Flutter é um kit de ferramentas de interface do usuário de código aberto do Google para criar aplicativos bonitos e compilados nativamente para desktop, web e dispositivos móveis a partir de uma única base de código.", "isRight": true },
+          { "title": "Flutter é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa." },
+          { "title": "É um Framework para criação de aplicações móveis e desktop de alto desempenho e qualidade, que utiliza as tecnologias web HTML, CSS e JavaScript." },
+          { "title": "Flutter é uma linguagem de programação utilizada apenas em WEB, não permitindo criação de aplicações mobile"}
+        ]
+      },
+      {
+        "title": "Quantos tipos de widgets existem no Flutter?",
+        "awnsers": [
+          { "title": "Existem dois tipos de widgets: 1. StatefulWidget : Um widget que não requer estado mutável. 2. StatelessWidgetStatefulWidget : Um widget que possui estado mutável." },
+          { "title": "Existem apenas 1 tipo de widgets, baseada em estruturação em componentes." },
+          { "title": "Não existem Widgets em Flutter, apenas na linguagem do React Native podemos encontrar este recurso." },
+          { "title": "Existem dois tipos de widgets: 1. StatelessWidget  : Um widget que não requer estado mutável. 2. StatefulWidget : Um widget que possui estado mutável.", "isRight": true}
+        ]
+      },
+      {
+        "title": "Qual é a diferença entre main()e runApp()funções no Flutter ?",
+        "awnsers": [
+          { "title": "main() é função provenientes do JavaScript, portanto não é reconhecida pelo Flutter. Enquanto a runApp() é responsável por gerar a árvore de widgets. " },
+          { "title": "As duas funções exercem a mesma função e não possui diferenças entre elas. " },
+          { "title": "runApp() é a função principal que tem sua chamativa a função main(), responsável por gerar o widget raiz." },
+          { "title": "main() é a função provenientes de linguagens semelhantes a Java , então é onde todos os programas começam, sem ela, você não pode escrever nenhum programa no Flutter, mesmo sem interface do usuário. Enquanto runApp() é a função que deve retornar o Widget que seria anexado à tela como raiz da Árvore de Widgets que será renderizada.", "isRight": true}
+        ]
+      },
+      {
+        "title": "O que é um widget ?",
+        "awnsers": [
+          { "title": "Widgets são os componentes da interface do usuário no Flutter, porém não são capazes de controlar e configurar estados atuais, se resume apenas a 'Layout'. " },
+          { "title": "Widgets são os componentes da interface do usuário no Flutter, descrevendo o comportamento de um elemento, como sua visualização em tela e estados atuais. Podendo ser desde um simples 'Texto' a 'Botões' a 'Layouts de tela' ","isRight": true },
+          { "title": "Widgets são plugins externos feito pela própria comunidade afim de otimizar o desempenho dos componentes dentro do Flutter. " },
+          { "title": "Widgets são os Layouts em tela, mas que se diferenciam de 'Componentes' para controle de estados dentro do mesmo. " }
+        ]
+      },
+      {
+        "title": "Qual linguagem de programação é usada pelo Flutter ?",
+        "awnsers": [
+          { "title": "Python." },
+          { "title": "JavaScript." },
+          { "title": "Dart.","isRight": true },
+          { "title": "HTML/CSS e React." }
         ]
       }
     ]
   }
+
 ]
