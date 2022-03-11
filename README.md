@@ -17,7 +17,8 @@
 ## Features
 
 <p align="center">
-	<img width="30%" alt="DevQuizApp" src="https://user-images.githubusercontent.com/61170558/157948581-799a3c92-5d1d-425a-99fb-25f207c93db7.png">
+	<img width="30%" alt="DevQuizApp - Splash" src="https://user-images.githubusercontent.com/61170558/157949411-78eed61c-e7cd-45c3-b5cc-1970786d2b75.png">
+	<img width="30%" alt="DevQuizApp - Home" src="https://user-images.githubusercontent.com/61170558/157948581-799a3c92-5d1d-425a-99fb-25f207c93db7.png">
 </p>
 
 - [x] Criação da `SplashScreen`
@@ -56,8 +57,12 @@ Basicamento precisamos saber como manipular uma possível requisição de um ban
 E o mais interessante de tudo é treinar sobre a lógica de feedback para o usuário, mostrando em tempo real se o mesmo acertou a questão em que está e no final um resultado geral sobre seu desempenho em determinada categoria de Quiz.
 
 ## 🔖 Layout - Screenshots
+<p align="center">
+	<img width="30%" alt="DevQuizApp - Questions" src="https://user-images.githubusercontent.com/61170558/157949858-635f6b1a-330f-43bc-b65f-bd628f7aac42.png">
+	<img width="30%" alt="DevQuizApp - Questions" src="https://user-images.githubusercontent.com/61170558/157949874-4c635e60-06c5-4adf-9957-e75d62a3dae9.png">
+	<img width="30%" alt="DevQuizApp - Result" src="https://user-images.githubusercontent.com/61170558/157949887-df6b2647-5431-4fac-b1fa-2cd0848f152e.png">
+</p>
 
-Você pode visualizar o layout do projeto através [desse link](https://movue-it-jeanbauch-jeanbauch.vercel.app/).
 
 ## 🚀 Como executar
 
