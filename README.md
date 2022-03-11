@@ -56,13 +56,13 @@ Um aplicativo de quiz treina deste a parte de layout e codificação corretas do
 Basicamento precisamos saber como manipular uma possível requisição de um banco de dados que forne as informações sobre todas as perguntas cadastradas, separando assim em objetos principais para composição dos dados respectivos para cada layout.
 E o mais interessante de tudo é treinar sobre a lógica de feedback para o usuário, mostrando em tempo real se o mesmo acertou a questão em que está e no final um resultado geral sobre seu desempenho em determinada categoria de Quiz.
 
-## 🔖 Layout - Screenshots
+## 🔖 Layout
 <p align="center">
 	<img width="30%" alt="DevQuizApp - Questions" src="https://user-images.githubusercontent.com/61170558/157949858-635f6b1a-330f-43bc-b65f-bd628f7aac42.png">
 	<img width="30%" alt="DevQuizApp - Questions" src="https://user-images.githubusercontent.com/61170558/157949874-4c635e60-06c5-4adf-9957-e75d62a3dae9.png">
 	<img width="30%" alt="DevQuizApp - Result" src="https://user-images.githubusercontent.com/61170558/157949887-df6b2647-5431-4fac-b1fa-2cd0848f152e.png">
 </p>
-
+Mais detalhes sobre o [Layout do App aqui](https://youtu.be/QhrW-eKxSbc)
 
 ## 🚀 Como executar
 
