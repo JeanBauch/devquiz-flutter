@@ -54,54 +54,54 @@
   },
 
   {
-    "title": "Introdução ao Flutter",
-    "imagem": "blocks",
-    "level": "facil",
+    "title": "Widgets",
+    "imagem": "hierarchy",
+    "level": "medio",
     "questionAnswered": 0,
     "questions": [
       {
-        "title": "O que é Flutter?",
+        "title": "Em relação ao 'StatelessWidget', qual alternativa é a correta?",
         "awnsers": [
-          { "title": "O Flutter é um kit de ferramentas de interface do usuário de código aberto do Google para criar aplicativos bonitos e compilados nativamente para desktop, web e dispositivos móveis a partir de uma única base de código.", "isRight": true },
-          { "title": "Flutter é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa." },
-          { "title": "É um Framework para criação de aplicações móveis e desktop de alto desempenho e qualidade, que utiliza as tecnologias web HTML, CSS e JavaScript." },
-          { "title": "Flutter é uma linguagem de programação utilizada apenas em WEB, não permitindo criação de aplicações mobile"}
+          { "title": "No Stateless, o estado é criado apenas UMA VEZ e seu build() é executado apenas uma vez, então ele pode atualizar os valores, mas não o estado explicitamente.", "isRight": true },
+          { "title": "No Stateless, os widgets podem atualizar seu STATE e valores várias vezes após o evento ser acionado, podendo assim executar o build() quantas vezes for necessário." },
+          { "title": "No StatelessWidget, temos todos os comortamentos de forma dinânico, podendo contruir diferentes widgets dentro do mesmo de forma reativa." },
+          { "title": "Todas as alternativas estão incorretas, pois, o metodo build() tem seu comportamente independentes dos widgets."}
         ]
       },
       {
-        "title": "Quantos tipos de widgets existem no Flutter?",
+        "title": "Em relação ao 'StatelessWidget', qual alternativa é a correta?",
         "awnsers": [
-          { "title": "Existem dois tipos de widgets: 1. StatefulWidget : Um widget que não requer estado mutável. 2. StatelessWidgetStatefulWidget : Um widget que possui estado mutável." },
-          { "title": "Existem apenas 1 tipo de widgets, baseada em estruturação em componentes." },
-          { "title": "Não existem Widgets em Flutter, apenas na linguagem do React Native podemos encontrar este recurso." },
-          { "title": "Existem dois tipos de widgets: 1. StatelessWidget  : Um widget que não requer estado mutável. 2. StatefulWidget : Um widget que possui estado mutável.", "isRight": true}
+          { "title": "No StatelessWidget, o estado é criado apenas UMA VEZ e seu build() é executado apenas uma vez, então ele pode atualizar os valores, mas não o estado explicitamente." },
+          { "title": "Seu comportamento é identico ao StatelessWidget, possuindo assim sua contruindo de forma estática." },
+          { "title": "No StatelessWidget, os widgets podem atualizar seu STATE e valores várias vezes após o evento ser acionado, podendo assim executar o build() quantas vezes for necessário.", "isRight": true },
+          { "title": "Todas as alternativas estão incorretas, pois, o metodo build() tem seu comportamente independentes dos widgets." }
         ]
       },
       {
-        "title": "Qual é a diferença entre main()e runApp()funções no Flutter ?",
+        "title": "O que é 'Hot Reload' no Flutter?",
         "awnsers": [
-          { "title": "main() é função provenientes do JavaScript, portanto não é reconhecida pelo Flutter. Enquanto a runApp() é responsável por gerar a árvore de widgets. " },
-          { "title": "As duas funções exercem a mesma função e não possui diferenças entre elas. " },
-          { "title": "runApp() é a função principal que tem sua chamativa a função main(), responsável por gerar o widget raiz." },
-          { "title": "main() é a função provenientes de linguagens semelhantes a Java , então é onde todos os programas começam, sem ela, você não pode escrever nenhum programa no Flutter, mesmo sem interface do usuário. Enquanto runApp() é a função que deve retornar o Widget que seria anexado à tela como raiz da Árvore de Widgets que será renderizada.", "isRight": true}
+          { "title": "É o recurso que recomplica o código, fazendo com que os widgets sejam gerados novamentes, porém destruindo todos os valores em seus STATES." },
+          { "title": "É o recurso que complica rapidamento o código recém adicionado nos arquivos e envia o código para o Dart Virtual Machine. Atualizando assim a interface do usuário.", "isRight": true },
+          { "title": "É o recurso que destrói o valor do STATE preservado e dos define como padrão, ou seja, fazendo com que sejam resetados e a árvore do widget do app seja completamente reconstruido." },
+          { "title": "É o recurso que complica rapidamento o código recém adicionado nos arquivos e envia o código para o Dart Virtual Machine. Porém não atualza a interface do usuário."}
         ]
       },
       {
-        "title": "O que é um widget ?",
+        "title": "O que é 'Hot Restart' no Flutter?",
         "awnsers": [
-          { "title": "Widgets são os componentes da interface do usuário no Flutter, porém não são capazes de controlar e configurar estados atuais, se resume apenas a 'Layout'. " },
-          { "title": "Widgets são os componentes da interface do usuário no Flutter, descrevendo o comportamento de um elemento, como sua visualização em tela e estados atuais. Podendo ser desde um simples 'Texto' a 'Botões' a 'Layouts de tela' ","isRight": true },
-          { "title": "Widgets são plugins externos feito pela própria comunidade afim de otimizar o desempenho dos componentes dentro do Flutter. " },
-          { "title": "Widgets são os Layouts em tela, mas que se diferenciam de 'Componentes' para controle de estados dentro do mesmo. " }
+          { "title": "É o recurso que destrói o valor do STATE preservado e dos define como padrão, ou seja, fazendo com que sejam resetados e a árvore do widget do app seja completamente reconstruido.", "isRight": true },
+          { "title": "É o recurso que recomplica o código, fazendo com que os widgets sejam gerados novamentes, porém preservando todos os valores em seus STATES." },
+          { "title": "É o recurso que complica rapidamento o código recém adicionado nos arquivos e envia o código para o Dart Virtual Machine. Atualizando assim a interface do usuário." },
+          { "title": "Nenhuma das alternativas." }
         ]
       },
       {
-        "title": "Qual linguagem de programação é usada pelo Flutter ?",
+        "title": "No Flutter, é possível fazer com que um mesmo Widget recebe parâmetros obrigatórios e opcionais?",
         "awnsers": [
-          { "title": "Python." },
-          { "title": "JavaScript." },
-          { "title": "Dart.","isRight": true },
-          { "title": "HTML/CSS e React." }
+          { "title": "Não, pois não possui uma tipagem dedicada." },
+          { "title": "Sim, porém apenas com uso de bibliotecas externas." },
+          { "title": "Sim, isso é possível de forma nativa.","isRight": true },
+          { "title": "Não, pois todos os parâmetros são de forma 'required'. " }
         ]
       }
     ]
