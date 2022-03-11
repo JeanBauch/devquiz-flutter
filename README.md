@@ -17,7 +17,7 @@
 ## Features
 
 <p align="center">
-	![Screenshot_1647027889](https://user-images.githubusercontent.com/61170558/157948409-94a4f66a-c56c-4666-8490-5871e26d2b92.png)
+	![Screenshot_1647027889](https://user-images.githubusercontent.com/61170558/157948581-799a3c92-5d1d-425a-99fb-25f207c93db7.png)
 </p>
 
 - [x] Criação da `SplashScreen`
