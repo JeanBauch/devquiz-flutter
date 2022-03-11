@@ -17,7 +17,7 @@
 ## Features
 
 <p align="center">
-	<img alt="Gif Demo" width="60%" src="https://user-images.githubusercontent.com/61170558/156807241-6c782568-c560-481b-a71f-fc5572b3d329.gif">
+	[![Watch the video](![Screenshot_1647027889](https://user-images.githubusercontent.com/61170558/157948409-94a4f66a-c56c-4666-8490-5871e26d2b92.png))](https://www.youtube.com/watch?v=QhrW-eKxSbc)
 </p>
 
 - [x] Criação da `SplashScreen`
@@ -29,14 +29,13 @@
 - [x] Estruturação de um mini design system
 - [x] Fluxo de feedback para cada questão listada   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QhrW-eKxSbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Plus para o próximo passo
 - [ ] Desenvolvimento de um BackEnd para fornecer as questões via API Rest;
 - [ ] Filtros para listagem personalizada na home (Filtros para `Fácil` `Medio` `Dificil` `Perito`);
 
-<div style="display: inline_block" align="center"><br>
-  <img align="center" alt="telaMobile" width="80%" src="https://user-images.githubusercontent.com/61170558/156808710-ad88f58e-3770-46e3-ab41-d57d9465ab50.png">
+<div style="display: inline_block" align="center">
+	
+
 </div>
 
 ## ✨ Tecnologias
